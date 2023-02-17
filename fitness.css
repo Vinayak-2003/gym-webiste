@@ -19,7 +19,7 @@ body{
 }
 
 #header{                                                                            /* header */
-    background-image: url("C:\\Users\\amuly\\Desktop\\programming\\web\\Fitness\\images\\model2.jpg");
+    background-image: url("./images/model2.jpg");
     height:700px;
     background-size:cover;
     background-position: center;
@@ -91,7 +91,7 @@ body{
 
 #features{                                             /*  features whole section */
     padding: 50px;
-    background-image:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)) , url("C:\\Users\\amuly\\Desktop\\programming\\web\\Fitness\\images\\features.jpg");
+    background-image:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)) , url("./images/features.jpg");
     background-position: center;
     background-size:cover;
     height:650px;;
