@@ -1,0 +1,201 @@
+body{
+    text-align:center;
+    font-family: 'Nunito', sans-serif;
+}
+
+/* header Section */
+.navbar a{                                     /* navbar color */
+    background-color: black;
+    color: #fff;
+}
+
+.logo{                                             /*  logo */
+    position: relative;
+    width: 140px;
+}
+
+.navbar-toggler{                                       /*  toggle button when screen break background */
+    background-color: #fff !important;
+}
+
+#header{                                                                            /* header */
+    background-image: url("C:\\Users\\amuly\\Desktop\\programming\\web\\Fitness\\images\\model2.jpg");
+    height:700px;
+    background-size:cover;
+    background-position: center;
+}
+
+.add{                                                       /* active when hover */
+    color: red;
+}
+
+/* Welcome Section */
+
+#welcome{                                               /* Box */
+    position:relative;
+    left: 16%;
+    width: 70%;
+    height:auto;
+    padding: 30px;
+    margin-top: -80px;
+    background-color: #fff;
+    box-shadow: 0 0 20px 7px rgba(60, 60, 60, 0.2);
+}
+
+.welcome_heading{                                              /* Welcome heading */
+    font-family: 'Montaga', serif;
+    font-size: 4rem;
+}
+
+.welcome_intro{
+    font-size:2rem;
+}
+
+/* About Section */
+
+#about{                                             /* About section */
+    margin-top:50px;
+    margin-bottom:50px;
+    padding:30px;
+    background-color: #EEEEEE;
+}
+
+.about_title{                                               /* About Title */
+    font-family: 'Montaga', serif;
+}
+
+.big_logo{                                      /* logo */
+    width:200px;
+}
+
+
+/* Services SECTION */
+
+#services{                                                 /* Section Margine */
+    margin:25px;
+}
+
+.services_photo{                                           /* Photos */
+    height:300px;
+    background-size:cover;
+    box-shadow: 0 0 20px 7px rgba(60, 60, 60, 0.2);
+}
+
+.services_title{                                           /* Titles */
+    font-family: 'Montaga', serif;
+    margin: 20px;
+}
+
+
+/* FEATURES SECTION */
+
+#features{                                             /*  features whole section */
+    padding: 50px;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)) , url("C:\\Users\\amuly\\Desktop\\programming\\web\\Fitness\\images\\features.jpg");
+    background-position: center;
+    background-size:cover;
+    height:650px;;
+}
+
+@media only screen and (max-width: 900px) {
+    #features{
+        height: auto;
+    }
+}
+
+.feature_photo{                                     /* Feature main photo */
+    height: 100%;
+}
+
+.feature-box .machine{                          /* feature box logos */
+    height: 50px;
+    margin:10px;
+}
+
+h4{                                                         /* feature text */
+    padding:10px;
+    color:white;
+}
+
+/* TESTIMONIAL SECTION */
+
+#testimonial{                           /* testimonial section */
+    margin: 50px;
+}
+
+.testimonial_title{                             /* Testimonial title */
+    color: #0A2647;
+    font-family: 'Montaga', serif;
+}
+
+.user_image{                                /* user images */
+    height: 250px;
+    margin:20px;
+}
+
+.user_review{                                           /* user review */
+    font-size: 1.2rem;
+}
+
+.twitter{                                               /* twitter logo */
+    height: 30px;
+}
+
+.username{                                          /* username span tag */
+    color: #00acee;
+}
+
+
+/* SUBSCRIBE SECTION */
+
+#subscribe{                                             /* subscribe section */
+    padding: 5%;
+    position:relative;
+    left:18%;
+    height: auto;
+    width:65%;
+    background-color:#395144;
+    box-shadow: 0px 0px 20px 7px rgba(0, 0, 0, 0.2);
+}
+
+.subscribe_title{                                                       /* Subscribe title */
+    font-family: 'Montaga', serif;
+    color: #F0EBCE;
+}
+
+#subscribe p , .form-label{                                         /* subscribe line and form elements */
+    color: #F0EBCE;
+}
+
+#subscribe button{                                          /* submit button */
+    margin: 20px;
+}
+
+
+/* FOOTER */
+
+#footer{    
+    text-align:left;
+    margin-top:50px;
+    background-color: #EEEEEE;
+    padding:100px;
+}
+
+.f_title{
+    padding: 15px;
+    font-family: 'Montaga', serif;
+}
+
+#footer p{
+    padding:10px;
+}
+
+#footer .city{
+    position:relative;
+    left:35px;
+}
+
+.f_logo{
+    height:25px;
+    padding-right: 20px;
+}
