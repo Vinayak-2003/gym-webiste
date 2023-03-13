@@ -66,6 +66,8 @@ body{
 
 .big_logo{                                      /* logo */
     width:200px;
+    position: relative;
+    left:10%;
 }
 
 
@@ -86,6 +88,14 @@ body{
     margin: 20px;
 }
 
+@media only screen and (max-width: 500px){
+    .services_photo{
+        height:230px;
+        background-size:cover;
+        align-items: center;
+    }
+}
+
 
 /* FEATURES SECTION */
 
@@ -94,7 +104,7 @@ body{
     background-image:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)) , url("./images/features.jpg");
     background-position: center;
     background-size:cover;
-    height:650px;;
+    height:650px;
 }
 
 @media only screen and (max-width: 900px) {
