@@ -19,7 +19,7 @@ body{
 }
 
 .nav-link:hover{
-    color:grey;
+    color:rgb(163, 163, 102);
 }
 
 #header{                                                                            /* header */
