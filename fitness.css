@@ -18,11 +18,16 @@ body{
     background-color: #fff !important;
 }
 
+.nav-link:hover{
+    color:grey;
+}
+
 #header{                                                                            /* header */
     background-image: url("./images/model2.jpg");
     height:700px;
     background-size:cover;
     background-position: center;
+    width:100%;
 }
 
 .add{                                                       /* active when hover */
@@ -67,7 +72,7 @@ body{
 .big_logo{                                      /* logo */
     width:200px;
     position: relative;
-    left:10%;
+    /* left:10%; */
 }
 
 
