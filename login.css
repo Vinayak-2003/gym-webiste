@@ -6,9 +6,10 @@ body{
 
 .login{
     margin:auto;
-    height: 500px;
-    width: 800px;
-    border: 2px solid black;
+    height:auto;
+    width: 65%;
+    /* border: 2px solid black; */
+    box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.2);
     position:absolute;
     top: 10%;
     left: 20%;
@@ -26,7 +27,7 @@ input{
 }
 
 .tagline{
-    font-size: 40px;
+    font-size: 2rem;
     font-weight: bold;
     font-family: 'Lato', sans-serif;
 }
@@ -35,4 +36,10 @@ input{
     height: 496px;
     padding: 0;
     width: 100%;
+}
+
+@media only screen and (max-width: 850px){
+    .img_col{
+        display:none;
+    }
 }
